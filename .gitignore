@@ -1,0 +1,11 @@
+# Dossier où Java met les fichiers compilés (.class)
+bin/
+
+# Fichiers de configuration d'Eclipse (souvent inutiles sur Git)
+.settings/
+.project
+.classpath
+
+# Fichiers temporaires ou de backup
+*.tmp
+*.bak

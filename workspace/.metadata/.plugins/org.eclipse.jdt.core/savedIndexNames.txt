@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+/home/adam/Desktop/PROJETJAAVA/LesPiratesJava/workspace/.metadata/.plugins/org.eclipse.jdt.core
+3863437379.index
+1083610191.index
