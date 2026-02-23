@@ -25,9 +25,9 @@ public class Jeu {
 		
 	}
 	
-	public void deplacerJoueur(Joueur joueur) {
+	public void deplacerJoueur(Joueur joueur, int distance) {
 		if (Joueur.estVivant()) {
-			Joueur.avancer(De.getResultat());
+			Joueur.avancer(distance);
 		}
 	}
 	

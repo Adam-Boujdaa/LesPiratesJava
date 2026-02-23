@@ -18,3 +18,5 @@ java.io.FileNotFoundException: /home/adam/Desktop/PROJETJAAVA/workspace/.metadat
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:558)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
 2026-02-12 09:21:33,933 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-02-19 07:51:39,169 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-02-19 07:51:40,774 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
