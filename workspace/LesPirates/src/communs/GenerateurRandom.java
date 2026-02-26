@@ -1,0 +1,21 @@
+package communs;
+
+import java.security.SecureRandom;
+import java.util.Random;
+
+public class GenerateurRandom {
+    private static Random random;
+
+    static {
+        try {
+            random = SecureRandom.getInstanceStrong();
+        } catch (Exception e) {
+            random = new Random();
+        }
+    }
+
+  
+    public static int gen(int n) {
+        return random.nextInt(n) + 1;
+    }
+}

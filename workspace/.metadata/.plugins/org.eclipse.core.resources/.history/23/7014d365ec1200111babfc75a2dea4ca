@@ -1,0 +1,24 @@
+package Case;
+
+import Jeu.Joueur;
+
+import java.security.SecureRandom;
+import java.util.Random;
+
+
+public class CaseRouletteRusse extends Case {
+	
+	@Override
+	protected void declencherAction(Joueur joueur) {
+		private Random random;
+		
+		
+		public De() {
+			try {
+	            this.random = SecureRandom.getInstanceStrong(); 
+	        } catch (Exception e) {
+	            this.random = new Random();
+	        }
+	}
+	
+}

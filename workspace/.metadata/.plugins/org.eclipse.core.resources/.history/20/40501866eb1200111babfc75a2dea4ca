@@ -1,0 +1,12 @@
+package Case;
+
+import Jeu.Joueur;
+
+public class CaseRouletteRusse extends Case {
+	
+	@Override
+	protected void declencherAction(Joueur joueur1) {
+		
+	}
+	
+}

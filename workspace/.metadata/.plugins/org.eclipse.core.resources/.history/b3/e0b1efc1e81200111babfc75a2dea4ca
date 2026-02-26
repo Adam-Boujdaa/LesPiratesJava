@@ -1,0 +1,18 @@
+package Jeu;
+
+import java.util.Random;
+
+
+public class De {
+
+	Random r= new Random();
+	
+	
+	public int lancerDes() {
+        int r1 = r.nextInt(6)+1;
+        int r2 = r.nextInt(6)+1;
+        return r1+r2;
+	}
+
+	
+}

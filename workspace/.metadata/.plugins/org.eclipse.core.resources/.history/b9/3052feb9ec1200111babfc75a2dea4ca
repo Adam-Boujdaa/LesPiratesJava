@@ -1,0 +1,16 @@
+package pack_case;
+
+import Jeu.Joueur;
+
+import java.security.SecureRandom;
+import java.util.Random;
+
+
+public class CaseRouletteRusse extends Case {
+	
+	@Override
+	protected void declencherAction(Joueur joueur) {
+	}
+	
+
+}

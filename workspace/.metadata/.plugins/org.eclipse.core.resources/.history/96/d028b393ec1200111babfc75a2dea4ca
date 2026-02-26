@@ -1,0 +1,47 @@
+package Jeu;
+
+import Affichage.Affichage;
+
+
+public class Jeu {
+	
+	private int nbJoueurs;
+	private int nbDes;
+	
+	private Affichage affich;
+	private Joueur[] joueurs;
+	private De des;
+	private Plateau plateau;
+	
+	
+	public Jeu() {
+		nbJoueurs=nbDes=2;
+		
+		affich = new Affichage();
+		joueurs = new Joueur[2];
+		des = new De();
+		plateau = new Plateau();
+		
+	}
+	
+	public void deplacerJoueur(Joueur joueur) {
+		if (joueur.estVivant()) {
+			
+			joueur.avancer(des.lancerDes());
+			
+		}
+	}
+	
+	public boolean verifierFinPartie(Joueur joueur) {
+		if (joueur.getPosition()>=30) {
+			affich.afficherFinPartie(joueur);
+			return true;
+		}
+		else {return false;}
+	}
+	
+	public void lancerJeu() {
+		//idk yet, ttes les init et affichages de début
+	}
+	
+}

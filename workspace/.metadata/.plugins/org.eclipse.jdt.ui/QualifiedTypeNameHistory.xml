@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Affichage.Affichage"/>
+    <fullyQualifiedTypeName name="Case.CaseNormale"/>
+    <fullyQualifiedTypeName name="Case.CaseSpeciale1"/>
+    <fullyQualifiedTypeName name="Case.CaseSpeciale2"/>
+    <fullyQualifiedTypeName name="Jeu.Couleur"/>
+    <fullyQualifiedTypeName name="Jeu.De"/>
+    <fullyQualifiedTypeName name="Jeu.Jeu"/>
+    <fullyQualifiedTypeName name="Jeu.Joueur"/>
+    <fullyQualifiedTypeName name="Jeu.Plateau"/>
+    <fullyQualifiedTypeName name="Case.Case"/>
+    <fullyQualifiedTypeName name="communs.GenerateurRandom"/>
+</qualifiedTypeNameHistroy>

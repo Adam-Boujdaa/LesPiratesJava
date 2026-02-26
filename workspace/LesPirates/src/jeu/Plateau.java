@@ -1,0 +1,14 @@
+package jeu;
+
+import pack_case.Case;
+
+public class Plateau {
+
+	private int nbCases = 30;
+	private int posCaseRouletteRusse[];
+	private int posCaseVolVie[];
+	private Case casedebut;
+	private Case caseFin;
+	
+	
+}
