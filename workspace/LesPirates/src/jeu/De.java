@@ -1,29 +1,21 @@
 package jeu;
 
-
-import java.security.SecureRandom;
-import java.util.Random;
-
+import communs.GenerateurRandom;
 
 public class De {
-
-	private Random random;
+	private int valeur;
 	
+	public De() {}
 	
-	public De() {
-		try {
-            this.random = SecureRandom.getInstanceStrong(); 
-        } catch (Exception e) {
-            this.random = new Random();
-        }
-	}
-	
-	
-	public int lancerDes() {
-        int r1 = random.nextInt(6)+1;
-        int r2 = random.nextInt(6)+1;
-        return r1+r2;
+	public int lancerDes(int nbDes) {
+		valeur = 0; 
+		for (int i = 0; i < nbDes; i++) {
+			valeur += GenerateurRandom.gen(6);
+		}
+		return valeur;
 	}
 
-	
+	public int getValeur() {
+		return valeur;
+	}
 }

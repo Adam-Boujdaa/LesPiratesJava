@@ -14,8 +14,7 @@ public class GenerateurRandom {
         }
     }
 
-  
     public static int gen(int n) {
-        return random.nextInt(n) + 1;
+        return random.nextInt(n) + 1; 
     }
 }
